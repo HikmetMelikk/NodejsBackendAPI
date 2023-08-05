@@ -38,7 +38,7 @@ mongoose
   .then(() => {
     console.log("connected database");
     app.listen(PORT, () => {
-      console.log("port calisiyor");
+      console.log(`port calisiyor ${PORT}`);
     });
   })
   .catch((error) => {
